@@ -10,6 +10,8 @@ private: float re, im;
 
 public:
     // constructor normal
+    //aici nu e un constructor normal, cel normal ii fara argumente precum:
+    //Complex() : re(0.f), im(0.f){}
     Complex(float re, float im) : re(re), im(im) {
 
     }
