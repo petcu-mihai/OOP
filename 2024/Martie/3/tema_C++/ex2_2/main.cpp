@@ -8,7 +8,10 @@ using namespace std;
 /* Metode definite in afara clasei [START] */
 
 // constructor normal
-Complex::Complex(float re, float im) : re(re), im(im) {}
+Complex::Complex(float re, float im) {
+    this -> re = re;
+    this -> im = im;
+}
 
 // constructor de copiere
 Complex::Complex(const Complex& c) : re(c.re), im(c.im) {}
