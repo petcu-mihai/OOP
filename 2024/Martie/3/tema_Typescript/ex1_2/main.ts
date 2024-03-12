@@ -1,0 +1,1 @@
+// in typescript nu se pot implementa metode in afara clasei :(
