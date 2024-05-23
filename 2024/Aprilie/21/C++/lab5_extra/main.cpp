@@ -1,6 +1,3 @@
-#include <iostream>
-
-#include <cmath>
 #include "Complex.h"
 
 bool double_equals(double l, double r) {
